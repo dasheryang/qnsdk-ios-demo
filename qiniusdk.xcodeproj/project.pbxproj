@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F9EEFDB1AFF2C4900887718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EEFDA1AFF2C4900887718 /* main.m */; };
+		2F9EEFDE1AFF2C4900887718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EEFDD1AFF2C4900887718 /* AppDelegate.m */; };
+		2F9EEFE11AFF2C4900887718 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EEFE01AFF2C4900887718 /* ViewController.m */; };
+		2F9EEFE41AFF2C4900887718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EEFE21AFF2C4900887718 /* Main.storyboard */; };
+		2F9EEFE61AFF2C4900887718 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EEFE51AFF2C4900887718 /* Images.xcassets */; };
+		2F9EEFE91AFF2C4900887718 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EEFE71AFF2C4900887718 /* LaunchScreen.xib */; };
+		2F9EEFF51AFF2C4A00887718 /* qiniusdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EEFF41AFF2C4A00887718 /* qiniusdkTests.m */; };
+		2F9EF0001AFF2E4700887718 /* IBGCloudStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EEFFF1AFF2E4700887718 /* IBGCloudStorage.m */; };
+		2F9EF0041AFF2FDE00887718 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EF0031AFF2FDE00887718 /* 1.mp4 */; };
+		7BD5C70C92EB87A54F0D2346 /* libPods-qiniusdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E295D91AA0B0857500813877 /* libPods-qiniusdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F9EEFEF1AFF2C4A00887718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9EEFCD1AFF2C4900887718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9EEFD41AFF2C4900887718;
+			remoteInfo = qiniusdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F9EEFD51AFF2C4900887718 /* qiniusdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qiniusdk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9EEFD91AFF2C4900887718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9EEFDA1AFF2C4900887718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F9EEFDC1AFF2C4900887718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F9EEFDD1AFF2C4900887718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F9EEFDF1AFF2C4900887718 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F9EEFE01AFF2C4900887718 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F9EEFE31AFF2C4900887718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F9EEFE51AFF2C4900887718 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F9EEFE81AFF2C4900887718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2F9EEFEE1AFF2C4A00887718 /* qiniusdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qiniusdkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9EEFF31AFF2C4A00887718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9EEFF41AFF2C4A00887718 /* qiniusdkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qiniusdkTests.m; sourceTree = "<group>"; };
+		2F9EEFFE1AFF2E4700887718 /* IBGCloudStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBGCloudStorage.h; sourceTree = "<group>"; };
+		2F9EEFFF1AFF2E4700887718 /* IBGCloudStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBGCloudStorage.m; sourceTree = "<group>"; };
+		2F9EF0031AFF2FDE00887718 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		43BFD56A9BE64E88E20472E2 /* Pods-qiniusdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiniusdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-qiniusdk/Pods-qiniusdk.release.xcconfig"; sourceTree = "<group>"; };
+		B3F7F248A2AF661A72BCF422 /* Pods-qiniusdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiniusdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qiniusdk/Pods-qiniusdk.debug.xcconfig"; sourceTree = "<group>"; };
+		E295D91AA0B0857500813877 /* libPods-qiniusdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qiniusdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F9EEFD21AFF2C4900887718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD5C70C92EB87A54F0D2346 /* libPods-qiniusdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9EEFEB1AFF2C4A00887718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E9CB18C96973B0056ECFECF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F7F248A2AF661A72BCF422 /* Pods-qiniusdk.debug.xcconfig */,
+				43BFD56A9BE64E88E20472E2 /* Pods-qiniusdk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F9EEFCC1AFF2C4900887718 = {
+			isa = PBXGroup;
+			children = (
+				2F9EEFD71AFF2C4900887718 /* qiniusdk */,
+				2F9EEFF11AFF2C4A00887718 /* qiniusdkTests */,
+				2F9EEFD61AFF2C4900887718 /* Products */,
+				2E9CB18C96973B0056ECFECF /* Pods */,
+				A200EDC588025CBA9E7D3C32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F9EEFD61AFF2C4900887718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F9EEFD51AFF2C4900887718 /* qiniusdk.app */,
+				2F9EEFEE1AFF2C4A00887718 /* qiniusdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9EEFD71AFF2C4900887718 /* qiniusdk */ = {
+			isa = PBXGroup;
+			children = (
+				2F9EF0021AFF2FCE00887718 /* res */,
+				2F9EEFFE1AFF2E4700887718 /* IBGCloudStorage.h */,
+				2F9EEFFF1AFF2E4700887718 /* IBGCloudStorage.m */,
+				2F9EEFDC1AFF2C4900887718 /* AppDelegate.h */,
+				2F9EEFDD1AFF2C4900887718 /* AppDelegate.m */,
+				2F9EEFDF1AFF2C4900887718 /* ViewController.h */,
+				2F9EEFE01AFF2C4900887718 /* ViewController.m */,
+				2F9EEFE21AFF2C4900887718 /* Main.storyboard */,
+				2F9EEFE51AFF2C4900887718 /* Images.xcassets */,
+				2F9EEFE71AFF2C4900887718 /* LaunchScreen.xib */,
+				2F9EEFD81AFF2C4900887718 /* Supporting Files */,
+			);
+			path = qiniusdk;
+			sourceTree = "<group>";
+		};
+		2F9EEFD81AFF2C4900887718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9EEFD91AFF2C4900887718 /* Info.plist */,
+				2F9EEFDA1AFF2C4900887718 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F9EEFF11AFF2C4A00887718 /* qiniusdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9EEFF41AFF2C4A00887718 /* qiniusdkTests.m */,
+				2F9EEFF21AFF2C4A00887718 /* Supporting Files */,
+			);
+			path = qiniusdkTests;
+			sourceTree = "<group>";
+		};
+		2F9EEFF21AFF2C4A00887718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9EEFF31AFF2C4A00887718 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F9EF0021AFF2FCE00887718 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				2F9EF0031AFF2FDE00887718 /* 1.mp4 */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		A200EDC588025CBA9E7D3C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E295D91AA0B0857500813877 /* libPods-qiniusdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F9EEFD41AFF2C4900887718 /* qiniusdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9EEFF81AFF2C4A00887718 /* Build configuration list for PBXNativeTarget "qiniusdk" */;
+			buildPhases = (
+				22E66FC5E85891972B49E996 /* Check Pods Manifest.lock */,
+				2F9EEFD11AFF2C4900887718 /* Sources */,
+				2F9EEFD21AFF2C4900887718 /* Frameworks */,
+				2F9EEFD31AFF2C4900887718 /* Resources */,
+				1108785782DDE802A1CC3FFF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qiniusdk;
+			productName = qiniusdk;
+			productReference = 2F9EEFD51AFF2C4900887718 /* qiniusdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F9EEFED1AFF2C4A00887718 /* qiniusdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9EEFFB1AFF2C4A00887718 /* Build configuration list for PBXNativeTarget "qiniusdkTests" */;
+			buildPhases = (
+				2F9EEFEA1AFF2C4A00887718 /* Sources */,
+				2F9EEFEB1AFF2C4A00887718 /* Frameworks */,
+				2F9EEFEC1AFF2C4A00887718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9EEFF01AFF2C4A00887718 /* PBXTargetDependency */,
+			);
+			name = qiniusdkTests;
+			productName = qiniusdkTests;
+			productReference = 2F9EEFEE1AFF2C4A00887718 /* qiniusdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F9EEFCD1AFF2C4900887718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = YANG;
+				TargetAttributes = {
+					2F9EEFD41AFF2C4900887718 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2F9EEFED1AFF2C4A00887718 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 2F9EEFD41AFF2C4900887718;
+					};
+				};
+			};
+			buildConfigurationList = 2F9EEFD01AFF2C4900887718 /* Build configuration list for PBXProject "qiniusdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F9EEFCC1AFF2C4900887718;
+			productRefGroup = 2F9EEFD61AFF2C4900887718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F9EEFD41AFF2C4900887718 /* qiniusdk */,
+				2F9EEFED1AFF2C4A00887718 /* qiniusdkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F9EEFD31AFF2C4900887718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9EEFE41AFF2C4900887718 /* Main.storyboard in Resources */,
+				2F9EF0041AFF2FDE00887718 /* 1.mp4 in Resources */,
+				2F9EEFE91AFF2C4900887718 /* LaunchScreen.xib in Resources */,
+				2F9EEFE61AFF2C4900887718 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9EEFEC1AFF2C4A00887718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1108785782DDE802A1CC3FFF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qiniusdk/Pods-qiniusdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22E66FC5E85891972B49E996 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F9EEFD11AFF2C4900887718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9EEFE11AFF2C4900887718 /* ViewController.m in Sources */,
+				2F9EEFDE1AFF2C4900887718 /* AppDelegate.m in Sources */,
+				2F9EF0001AFF2E4700887718 /* IBGCloudStorage.m in Sources */,
+				2F9EEFDB1AFF2C4900887718 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9EEFEA1AFF2C4A00887718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9EEFF51AFF2C4A00887718 /* qiniusdkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F9EEFF01AFF2C4A00887718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9EEFD41AFF2C4900887718 /* qiniusdk */;
+			targetProxy = 2F9EEFEF1AFF2C4A00887718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F9EEFE21AFF2C4900887718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9EEFE31AFF2C4900887718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F9EEFE71AFF2C4900887718 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9EEFE81AFF2C4900887718 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F9EEFF61AFF2C4A00887718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F9EEFF71AFF2C4A00887718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F9EEFF91AFF2C4A00887718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F7F248A2AF661A72BCF422 /* Pods-qiniusdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qiniusdk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F9EEFFA1AFF2C4A00887718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BFD56A9BE64E88E20472E2 /* Pods-qiniusdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qiniusdk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F9EEFFC1AFF2C4A00887718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = qiniusdkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qiniusdk.app/qiniusdk";
+			};
+			name = Debug;
+		};
+		2F9EEFFD1AFF2C4A00887718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = qiniusdkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qiniusdk.app/qiniusdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F9EEFD01AFF2C4900887718 /* Build configuration list for PBXProject "qiniusdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9EEFF61AFF2C4A00887718 /* Debug */,
+				2F9EEFF71AFF2C4A00887718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9EEFF81AFF2C4A00887718 /* Build configuration list for PBXNativeTarget "qiniusdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9EEFF91AFF2C4A00887718 /* Debug */,
+				2F9EEFFA1AFF2C4A00887718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9EEFFB1AFF2C4A00887718 /* Build configuration list for PBXNativeTarget "qiniusdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9EEFFC1AFF2C4A00887718 /* Debug */,
+				2F9EEFFD1AFF2C4A00887718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F9EEFCD1AFF2C4900887718 /* Project object */;
+}
